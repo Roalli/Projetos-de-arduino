@@ -1,9 +1,9 @@
 # Projetos de arduino
 
-##Indice
+## Indice
 
-* [Relogio Digital](#relogio&digital)
-* [Sensor de distancia](#sensor&de&distancia)
+* [Relogio Digital](#relogio-digital)
+* [Sensor de distancia](#sensor-de-distancia)
 
 ## Relogio Digital
 
