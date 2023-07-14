@@ -15,8 +15,13 @@ Possui também um modo para saber se os sensores está sendo movimentado reto ou
 
 ## O seu uso
 
+### Modo principal
 Ao ligar o arduino, ele ja começa a detectar a distancia com os sensores, se a distancia de lgum obstaculo for maior que 1 metro, os motores de vibração estara parado, mas caso a distancia for menor que um metro mas maior que 50cm, o motor de vibração correspondente ao sensor, ira vibrar com baixa intensidade. Caso a distancia for menor que 50 cm e maior que 25cm, ira vibrar com mais intensidade, e se for menor que 25cm ele não vibra pelo motivo de ter sido planejado em ser usado na cintura, para não vibrar com gestos do usuario.
+
+### Segundo modo
+
+Ao ativar o botão deslizante, o arduino entra em seu segundo modo, que é destinado para ser usado em corredor. Neste modo esta configurado apenas com um motor e um sensor, é guardado a distancia inicial do sensor à parede e faz sucessivos testes para confirmar se distanciou ou se aproximou da parede, caso não esteja na mesma distancia, ele vibra até voltar a distancia inicial da parede.
 
 ## Codigo
 
-O codigo fonte está presente neste repositorio em .ino para já ser usado no arduino.
+O codigo fonte está presente neste repositorio em `.ino` para já ser usado no arduino.
